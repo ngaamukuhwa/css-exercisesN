@@ -4,3 +4,8 @@
     font-size: 20px;
     text-align: center;
 }
+
+/* could have also been:
+    div p
+    div .text
+    .container p  */
