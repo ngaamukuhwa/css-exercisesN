@@ -16,6 +16,16 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1; /* means all items will shrink evenly*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
 input {
@@ -24,3 +34,34 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
